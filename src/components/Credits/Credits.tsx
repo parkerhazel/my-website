@@ -1,6 +1,6 @@
 import styles from "./Credits.module.css";
 
-export const Credits = () => {
+const Credits = () => {
   return (
     <div className={styles.Credits}>
         <div className={styles.EndingCredits}>
@@ -10,3 +10,5 @@ export const Credits = () => {
     </div>
   );
 };
+
+export default Credits;

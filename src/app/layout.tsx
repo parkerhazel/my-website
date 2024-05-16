@@ -1,9 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Navbar } from "../components/Navbar/Navbar";
+import Navbar from "../components/Navbar/Navbar";
+import Intro from "../components/Intro/Intro";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
-import { Credits } from "../components/Credits/Credits";
+import Credits from "../components/Credits/Credits";
 
 export const metadata: Metadata = {
   title: "Parker",
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body >
         <Navbar />
         {children}
+        <Intro />
         <Analytics />
         <SpeedInsights />
         <Credits />

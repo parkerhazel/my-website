@@ -6,8 +6,6 @@
 }
 
 .EndingCredits {
-    position: absolute;
-    bottom: 0;
     font-family: "NTR", sans-serif;
     color: var(--slate);
     text-align: center;

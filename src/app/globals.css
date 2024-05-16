@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* https://www.color-hex.com/color-palette/104116 */
 :root {
   --foreground-rgb: 190, 227, 182;
   --background-start-rgb: 121,152,204;

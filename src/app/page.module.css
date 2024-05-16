@@ -1,0 +1,10 @@
+/* Home Styles */
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #7998cc;
+    color: #bee3b6;
+}

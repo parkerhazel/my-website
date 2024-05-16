@@ -14,7 +14,7 @@ const socials = [
   { name: 'Email', href: 'mailto:parkerhazell@gmail.com', target: '_blank'},
 ]
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <>
       <nav className={styles.Navbar}>
@@ -36,3 +36,5 @@ export const Navbar = () => {
     </>
   );
 }
+
+export default Navbar;
