@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Navbar } from "../components/Navbar/Navbar";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 import { Credits } from "../components/Credits/Credits";
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body >
         <Navbar />
         {children}
+        <Analytics />
         <SpeedInsights />
         <Credits />
       </body>
