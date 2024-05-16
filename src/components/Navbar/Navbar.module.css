@@ -16,4 +16,14 @@
 .SocialsList {
   display: flex;
   gap: 1rem;
+  justify-content: end;
 }
+
+@media only screen and (max-width: 768px) {
+    .Navbar {
+      justify-content: flex-end;
+    }
+    .NavbarList {
+        display: None;
+      }
+  }
