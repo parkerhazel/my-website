@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Navbar } from "../components/Navbar/Navbar";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Footer } from "../components/Footer/Footer";
+import { Credits } from "../components/Credits/Credits";
 
 export const metadata: Metadata = {
   title: "Parker",
@@ -20,7 +20,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <SpeedInsights />
-        <Footer />
+        <Credits />
       </body>
     </html>
   );
