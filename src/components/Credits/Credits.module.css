@@ -3,6 +3,9 @@
     display: flex;
     align-items: center;
     padding-top: 100px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 .EndingCredits {

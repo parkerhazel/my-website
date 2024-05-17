@@ -6,7 +6,7 @@ const Intro = () => {
         <div id='intro' className={styles.Intro}>
             <h1>Introduction</h1>
             <p>
-                My name is Parker Hazel, and I&apos;m 24 years old. I work as a Software Engineer.
+                My name is Parker Hazel, and I&apos;m a Software Engineer.
             </p>
         </div>
         </>
