@@ -14,8 +14,8 @@ const Intro = () => {
               solving complex problems. I hold a Computer Science degree from
               the University of North Carolina at Chapel Hill and currently work
               at Bridge Investment Group. There, I specialize in integrating
-              platforms like AWS and Salesforce and developing web applications
-              with Svelte. My past experience at Gorelick Brothers Capital
+              platforms like AWS and Salesforce and developing web applications.
+              My past experience at Gorelick Brothers Capital
               involved leading Agile projects and optimizing data communication.
             </p>
           </div>
