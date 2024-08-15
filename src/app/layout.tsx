@@ -1,7 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar/Navbar";
-import Home from "../components/Home/Home";
 import Intro from "../components/Intro/Intro";
 import Experience from "../components/Experience/Experience";
 import Projects from "../components/Projects/Projects";
@@ -14,12 +13,16 @@ export const metadata: Metadata = {
   description: "Parker Hazel's Website."
 };
 
-export default function RootLayout() {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
       <body >
         <Navbar />
-        <Home />
+        {children}
         <Intro />
         <Experience />
         <Projects />
