@@ -10,8 +10,7 @@ import Credits from "../components/Credits/Credits";
 
 export const metadata: Metadata = {
   title: "Parker",
-  description: "Parker Hazel's Website.",
-  icons: "%PUBLIC_URL%/favicon.ico",
+  description: "Parker Hazel's Website."
 };
 
 export default function RootLayout({
