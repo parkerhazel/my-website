@@ -4,15 +4,15 @@
 /* https://www.color-hex.com/color-palette/104116 */
 :root {
   --foreground-rgb: 190, 227, 182;
-  --background-start-rgb: 121,152,204;
-  --background-end-rgb: 121,152,204;
+  --background-start-rgb: 121, 152, 204;
+  --background-end-rgb: 121, 152, 204;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 190, 227, 182;
-    --background-start-rgb: 121,152,204;
-    --background-end-rgb: 121,152,204;
+    --background-start-rgb: 121, 152, 204;
+    --background-end-rgb: 121, 152, 204;
   }
 }
 

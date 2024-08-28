@@ -1,12 +1,10 @@
-import styles from "./Credits.module.css";
-
 const Credits = () => {
   return (
-    <div className={styles.Credits}>
-        <div className={styles.EndingCredits}>
-          <div>Built and designed by Parker Hazel. </div>
-          <div>All rights reserved. ©</div>
-        </div>
+    <div className="relative bottom-0 flex w-full items-center pt-24">
+      <div className="w-full pb-10 text-center font-sans text-base text-slate-500">
+        <div>Built and designed by Parker Hazel. </div>
+        <div>All rights reserved. ©</div>
+      </div>
     </div>
   );
 };
