@@ -14,11 +14,11 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        primary: '#7998cc', // Custom primary color
-        secondary: '#bee3b6', // Custom secondary color
+        primary: "#7998cc", // Custom primary color
+        secondary: "#bee3b6", // Custom secondary color
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
 export default config;
