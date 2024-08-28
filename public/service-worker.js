@@ -2,7 +2,7 @@ const CACHE_NAME = "my-cache-v1";
 const urlsToCache = [
   "/",
   "/favicon.ico",
-  "/assets/**", // Adjust this according to your static assets
+  //"/assets/**", // Adjust this according to your static assets
   // Add any other URLs you want to cache
 ];
 
