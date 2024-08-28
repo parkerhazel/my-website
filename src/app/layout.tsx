@@ -1,12 +1,13 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar/Navbar";
-import Intro from "../components/Intro/Intro";
+import About from "../components/About/About";
 import Experience from "../components/Experience/Experience";
 import Projects from "../components/Projects/Projects";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import Credits from "../components/Credits/Credits";
+import ServiceWorkerRegister from "../components/ServiceWorkerRegister/ServiceWorkerRegister";
 
 export const metadata: Metadata = {
   title: "Parker",
@@ -23,12 +24,13 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
-        <Intro />
+        <About />
         <Experience />
         <Projects />
         <Analytics />
         <SpeedInsights />
         <Credits />
+        <ServiceWorkerRegister />
       </body>
     </html>
   );

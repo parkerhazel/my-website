@@ -1,13 +1,10 @@
-const Intro = () => {
+const About = () => {
   return (
     <>
-      <div className="flex items-center justify-center">
-        <div
-          id="intro"
-          className="m-5 flex max-w-3xl flex-col items-center justify-center rounded-lg border border-gray-300 p-5 text-center font-sans leading-relaxed shadow-md"
-        >
+      <div id="about" className="flex items-center justify-center pt-10">
+        <div className="m-5 flex max-w-3xl flex-col items-center justify-center rounded-lg border border-gray-300 p-5 text-center font-sans leading-relaxed shadow-md">
           <div className="mb-4">
-            <h1>Introduction</h1>
+            <h1>About Me</h1>
           </div>
           <div className="mb-4">
             <p>
@@ -26,4 +23,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default About;

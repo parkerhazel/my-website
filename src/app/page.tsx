@@ -1,7 +1,10 @@
 export default function Home() {
   return (
     <>
-      <div className="flex h-[40vh] flex-col items-center justify-center bg-primary text-secondary">
+      <div
+        id="intro"
+        className="flex flex-col items-center justify-center bg-primary pt-48 text-secondary"
+      >
         <h1>Hello There</h1>
       </div>
     </>
