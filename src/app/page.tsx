@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div
         id="intro"
-        className="flex flex-col items-center justify-center bg-primary p-48 text-secondary"
+        className="flex justify-center bg-primary p-48 text-5xl text-secondary"
       >
         <FadeInSection>
           <h1> Hello There</h1>

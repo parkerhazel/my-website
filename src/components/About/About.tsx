@@ -16,7 +16,7 @@ const About = () => {
       <div id="about" className="flex justify-center pt-24">
         <FadeInSection>
           <div className="max-w-5xl items-center p-5 text-center">
-            <div className="mb-4 flex text-start text-5xl after:ml-5 after:mt-5 after:block after:h-[2px] after:w-80 after:bg-secondary">
+            <div className="mb-4 flex text-start text-5xl after:ml-5 after:mt-5 after:hidden after:h-[2px] after:w-80 after:bg-secondary after:sm:block">
               <span>/ about me</span>
             </div>
             <div className="hero">
@@ -43,7 +43,7 @@ const About = () => {
                   <p className="mt-6">
                     Here are some technologies I have been working with:
                   </p>
-                  <ul className="grid list-none grid-cols-2 gap-x-2 gap-y-2 pt-5">
+                  <ul className="grid list-none grid-cols-[30%_70%] gap-x-2 gap-y-2 pt-5">
                     {tech_stack.map((tech_item, i) => (
                       <FadeInSection key={i} delay={`${i + 1}00ms`}>
                         <li
