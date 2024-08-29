@@ -9,13 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // primary: "#7998cc", // Custom primary color
-        // secondary: "#bee3b6", // Custom secondary color
-        // accent: "#765fb0", // Custom accent color
-        primary: "#cad2c5",
-        secondary: "#52796f",
-        tertiary: "#354f52",
-        accent: "#2f3e46",
+        // background: "#7998cc", // Custom background color
+        // textPrimary: "#bee3b6", // Custom textPrimary color
+        // textSecondary: "#765fb0", // Custom textSecondary color
+        background: "#CAD2C5", // Light Greenish Gray
+        primary: "#52796F", // Desaturated Green
+        secondary: "#84A98C", // Soft Green
+        textPrimary: "#2F3E46", // Deep Blue Gray
+        textSecondary: "#84A98C", // Dark Greenish Gray
+        textTertiary: "#52796F", // Desaturated Green
+        accent: "#354f52", // Soft Green
       },
       fontFamily: {
         custom: ["NTR", "sans-serif"],

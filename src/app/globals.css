@@ -7,7 +7,7 @@
   --background-rgb: 121, 152, 204;
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb)); */
-  @apply bg-primary text-secondary;
+  @apply bg-background text-textPrimary;
 }
 
 @font-face {
