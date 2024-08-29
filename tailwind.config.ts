@@ -9,9 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#7998cc", // Custom primary color
-        secondary: "#bee3b6", // Custom secondary color
-        accent: "#765fb0", // Custom accent color
+        // primary: "#7998cc", // Custom primary color
+        // secondary: "#bee3b6", // Custom secondary color
+        // accent: "#765fb0", // Custom accent color
+        primary: "#cad2c5",
+        secondary: "#52796f",
+        tertiary: "#354f52",
+        accent: "#2f3e46",
       },
       fontFamily: {
         custom: ["NTR", "sans-serif"],

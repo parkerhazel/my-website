@@ -35,5 +35,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 https://www.color-hex.com/color-palette/104116
+https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46

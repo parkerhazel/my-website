@@ -3,10 +3,11 @@
 @tailwind utilities;
 /* https://www.color-hex.com/color-palette/104116 */
 :root {
-  --foreground-rgb: 190, 227, 182;
+  /* --foreground-rgb: 190, 227, 182;
   --background-rgb: 121, 152, 204;
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
+  background: rgb(var(--background-rgb)); */
+  @apply bg-primary text-secondary;
 }
 
 @font-face {
