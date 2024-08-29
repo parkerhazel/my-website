@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         primary: "#7998cc", // Custom primary color
         secondary: "#bee3b6", // Custom secondary color
+        accent: "#765fb0", // Custom accent color
+      },
+      fontFamily: {
+        custom: ["NTR", "sans-serif"],
       },
     },
   },

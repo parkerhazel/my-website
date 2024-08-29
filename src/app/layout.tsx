@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="Layout font-ntr">
         <Navbar />
         {children}
         <About />
