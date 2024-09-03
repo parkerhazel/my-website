@@ -23,7 +23,7 @@ const socials = [
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-background text-textTertiary fixed z-50 flex w-full items-center justify-between px-8 py-4">
+      <nav className="fixed z-50 flex w-full items-center justify-between bg-background px-8 py-4 text-textSecondary">
         <ul className="hidden gap-4 sm:flex">
           {destinations.map((destination) => (
             <li key={destination.name}>

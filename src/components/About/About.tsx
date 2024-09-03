@@ -16,7 +16,7 @@ const About = () => {
       <div id="about" className="flex justify-center pt-24">
         <FadeInSection>
           <div className="max-w-5xl items-center p-5 text-center">
-            <div className="after:bg-textPrimary mb-4 flex text-start text-5xl after:ml-5 after:mt-5 after:hidden after:h-[2px] after:w-80 after:sm:block">
+            <div className="mb-4 flex text-start text-5xl after:ml-5 after:mt-5 after:hidden after:h-[2px] after:w-80 after:bg-textPrimary after:sm:block">
               <span>/ about me</span>
             </div>
             <div className="hero">
@@ -32,7 +32,7 @@ const About = () => {
                     I am currently a <b>Software Engineer</b> at{" "}
                     <a
                       href="https://www.bridgeig.com"
-                      className="text-textSecondary font-extrabold hover:underline"
+                      className="font-extrabold text-textSecondary hover:underline"
                     >
                       Bridge Investment Group
                     </a>
@@ -48,7 +48,7 @@ const About = () => {
                       <FadeInSection key={i} delay={`${i + 1}00ms`}>
                         <li
                           key={i}
-                          className="before:text-textSecondary relative pl-5 text-lg before:absolute before:left-0 before:font-extrabold before:content-['▹']"
+                          className="relative pl-5 text-lg before:absolute before:left-0 before:font-extrabold before:text-textSecondary before:content-['▹']"
                         >
                           {tech_item}
                         </li>

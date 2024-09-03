@@ -16,8 +16,8 @@ const config: Config = {
         primary: "#52796F", // Desaturated Green
         secondary: "#84A98C", // Soft Green
         textPrimary: "#2F3E46", // Deep Blue Gray
-        textSecondary: "#84A98C", // Dark Greenish Gray
-        textTertiary: "#52796F", // Desaturated Green
+        textSecondary: "#52796F", // Dark Greenish Gray
+        textTertiary: "#84A98C", // Desaturated Green
         accent: "#354f52", // Soft Green
       },
       fontFamily: {
