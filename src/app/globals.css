@@ -17,6 +17,16 @@
   font-style: normal; /* Adjust as needed */
 }
 
+@layer {
+  .header-title {
+    @apply mb-4 flex text-start text-5xl after:ml-5 after:mt-5 after:hidden after:h-[2px] after:w-80 after:bg-textPrimary after:sm:block;
+  }
+
+  .header-title-new {
+    @apply mb-4 flex max-w-xl text-nowrap text-5xl after:ml-5 after:mt-5 after:hidden after:h-[2px] after:w-full after:bg-textPrimary after:sm:block;
+  }
+}
+
 body {
   font-family: "NTR", sans-serif;
 }
