@@ -13,9 +13,12 @@ const Education = () => {
               <div className="hero-content items-start">
                 <div className="py-6 text-justify text-2xl">
                   Computer Science B.S. @{" "}
-                  <b className="font-extrabold text-textSecondary">
+                  <a
+                    href="https://www.unc.edu"
+                    className="font-extrabold text-textSecondary hover:underline"
+                  >
                     Univestity of North Carolina at Chapel Hill
-                  </b>
+                  </a>
                 </div>
               </div>
             </div>
