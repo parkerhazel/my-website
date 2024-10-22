@@ -3,10 +3,10 @@ import FadeInSection from "../FadeInSection/FadeInSection";
 const Education = () => {
   return (
     <>
-      <div id="education" className="flex justify-center pt-24">
+      <div id="education" className="justify-center pt-24">
         <FadeInSection>
           <div className="max-w-5xl items-center p-5 text-center">
-            <div className="header-title">
+            <div className="header-title-new">
               <span>/ education</span>
             </div>
             <div className="hero">

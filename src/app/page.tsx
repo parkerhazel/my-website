@@ -6,10 +6,12 @@ import Education from "../components/Education/Education";
 export default function Home() {
   return (
     <>
-      <Introduction />
-      <About />
-      <Experience />
-      <Education />
+      <div className="mx-auto w-full max-w-5xl flex-col">
+        <Introduction />
+        <About />
+        <Experience />
+        <Education />
+      </div>
     </>
   );
 }

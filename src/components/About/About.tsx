@@ -13,10 +13,10 @@ const tech_stack = [
 const About = () => {
   return (
     <>
-      <div id="about" className="flex justify-center pt-24">
+      <div id="about" className="justify-center pt-24">
         <FadeInSection>
           <div className="max-w-5xl items-center p-5 text-center">
-            <div className="header-title">
+            <div className="header-title-new">
               <span>/ about me</span>
             </div>
             <div className="hero">
