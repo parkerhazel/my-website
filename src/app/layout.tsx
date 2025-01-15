@@ -5,6 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import Credits from "../components/Credits/Credits";
 import ServiceWorkerRegister from "../components/ServiceWorkerRegister/ServiceWorkerRegister";
+import TrackVisitor from "../components/Analytics/TrackVisitor";
 
 export const metadata: Metadata = {
   title: "Parker",
@@ -23,6 +24,7 @@ export default function RootLayout({
         {children}
         <Credits />
         <ServiceWorkerRegister />
+        <TrackVisitor />
         <Analytics />
         <SpeedInsights />
       </body>
